@@ -104,6 +104,7 @@ Configuration files should have the following format, and for any *null* values 
     </HeadlessProgramConfiguration>
 
 For example, to run a process as the same user that the service is running as, you want the user, pass and dom to be null.  Your configuration file would look like this:
+
     <?xml version="1.0" encoding="utf-16"?>
     <HeadlessProgramConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <proc>d:\LightTPD\LightTPD.exe</proc>
