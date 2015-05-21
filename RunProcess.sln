@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadlessProgram", "RunProcess\HeadlessProgram.csproj", "{0D5A8AE9-5242-4F3C-ADE5-9F3F4CC9CD53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericWindowsService", "GenericWindowsService\GenericWindowsService.csproj", "{74B57B7A-EB80-4F10-B327-4FE5F09626A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericWindowsServiceRegistryReader", "GenericWindowsServiceRegistryReader\GenericWindowsServiceRegistryReader.csproj", "{CBAC1B34-9B39-45A4-892B-82BD7CB4AC03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D5A8AE9-5242-4F3C-ADE5-9F3F4CC9CD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5A8AE9-5242-4F3C-ADE5-9F3F4CC9CD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5A8AE9-5242-4F3C-ADE5-9F3F4CC9CD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5A8AE9-5242-4F3C-ADE5-9F3F4CC9CD53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B57B7A-EB80-4F10-B327-4FE5F09626A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B57B7A-EB80-4F10-B327-4FE5F09626A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B57B7A-EB80-4F10-B327-4FE5F09626A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B57B7A-EB80-4F10-B327-4FE5F09626A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBAC1B34-9B39-45A4-892B-82BD7CB4AC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAC1B34-9B39-45A4-892B-82BD7CB4AC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAC1B34-9B39-45A4-892B-82BD7CB4AC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAC1B34-9B39-45A4-892B-82BD7CB4AC03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
